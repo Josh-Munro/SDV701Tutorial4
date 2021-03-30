@@ -17,9 +17,18 @@ namespace Test
                 var artistService = new ArtistService(unitOfWork);
                 //var artistRepository = unitOfWork.ArtistRepository;
                 //var artists = artistRepository.List();
-                var artistList = artistService.List();
-                artistList.ToList().ForEach(artist => Console.WriteLine(artist.Name));
-                Console.Read();
+
+                //var artistList = artistService.List();
+                //artistList.ToList().ForEach(artist => Console.WriteLine(artist.Name));
+                //Console.Read();
+
+                foreach (var artist in artistService.List())
+                {
+                    Console.WriteLine(artist.Name);
+                }
+
+                Console.ReadLine();
+
                 //artists.ToList().ForEach(artist => Console.WriteLine(artist.Name));
                 //Console.Read();
 

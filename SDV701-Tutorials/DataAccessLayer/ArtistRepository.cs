@@ -15,21 +15,21 @@ namespace ArtGallery.DataAccessLayer
         {
         }
 
-        protected virtual IQueryable<Work> All
+        protected virtual IQueryable<Artist> All
         {
             get
             {
-                return Context.Set<Work>();
+                return Context.Set<Artist>();
             }
         }
-        public virtual void Add(Work instance)
+        public virtual void Add(Artist instance)
         {
             if (instance != null)
             {
-                Context.Set<Work>().Add(instance);
+                Context.Set<Artist>().Add(instance);
             }
         }
-        public virtual Work Get(int id)
+        public virtual Artist Get(int id)
         {
             return All.FirstOrDefault(a => a.ID == id);
         }
@@ -37,14 +37,14 @@ namespace ArtGallery.DataAccessLayer
         {
             Delete(Get(id));
         }
-        public virtual void Delete(Work instance)
+        public virtual void Delete(Artist instance)
         {
             if (instance != null)
             {
                 Context.Entry(instance).State = EntityState.Deleted;
             }
         }
-        public virtual void Update(Work instance)
+        public virtual void Update(Artist instance)
         {
             if (instance != null)
             {
@@ -55,7 +55,7 @@ namespace ArtGallery.DataAccessLayer
         //{
         //    Context.SaveChanges();
         //}
-        public virtual IEnumerable<Work> List()
+        public virtual IEnumerable<Artist> List()
         {
             return All.ToList();
         }
@@ -65,5 +65,7 @@ namespace ArtGallery.DataAccessLayer
                         select new { artist.ID, artist.Name };
             return query.ToList();
         }
+
+        
     }
 }

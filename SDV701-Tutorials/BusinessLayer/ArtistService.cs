@@ -20,7 +20,7 @@ namespace ArtGallery.BusinessLayer
         public int Add(ArtistModel artist) {
             var config = new MapperConfiguration(cfg => cfg.CreateMap<ArtistModel, Artist>().ForMember(x => x.Works, opt => opt.Ignore()));
             IMapper mapper = new Mapper(config);
-            var data = new Work();
+            var data = new Artist();
             mapper.Map(artist, data);
             _unitOfWork.ArtistRepository.Add(data);
             _unitOfWork.Save();
@@ -48,7 +48,7 @@ namespace ArtGallery.BusinessLayer
             var artists = _unitOfWork.ArtistRepository.List();
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Work, ArtistModel>();
+                cfg.CreateMap<Artist, ArtistModel>();
                 cfg.CreateMap<Work, WorkModel>();
             });
             IMapper mapper = new Mapper(config);

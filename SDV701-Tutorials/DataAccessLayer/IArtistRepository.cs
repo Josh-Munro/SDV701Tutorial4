@@ -5,12 +5,12 @@ namespace ArtGallery.DataAccessLayer
 {
     public interface IArtistRepository
     {
-        void Add(Work instance);
-        void Delete(Work instance);
+        void Add(Artist instance);
+        void Delete(Artist instance);
         void Delete(int id);
-        Work Get(int id);
-        IEnumerable<Work> List();
+        Artist Get(int id);
+        IEnumerable<Artist> List();
         IEnumerable ListNames();
-        void Update(Work instance);
+        void Update(Artist instance);
     }
 }
