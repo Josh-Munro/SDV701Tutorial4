@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L8hUZ0rk04Uf4GoR74EwgSxash6lYRO2WTQ4RsZxZ/2mMAM2no7nS1yd5j2WadBgqbzBeTRXLLpWhwVhTggE8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Noel Leeming\\Downloads\\SDV701-Tutorial3-1.0\\SDV701-Tutorial3-1.0\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Noel Leeming\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Noel Leeming\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
