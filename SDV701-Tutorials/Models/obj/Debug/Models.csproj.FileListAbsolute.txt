@@ -1,0 +1,6 @@
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\bin\Debug\ArtGallery.Models.dll
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\bin\Debug\ArtGallery.Models.pdb
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\obj\Debug\ArtGallery.Models.dll
+C:\Users\Noel Leeming\Downloads\SDV701-Tutorial3-1.0\SDV701Tutorial4\SDV701-Tutorials\Models\obj\Debug\ArtGallery.Models.pdb
